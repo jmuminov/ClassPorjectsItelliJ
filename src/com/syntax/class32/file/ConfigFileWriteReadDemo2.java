@@ -10,6 +10,9 @@ public class ConfigFileWriteReadDemo2 {
     public static void main(String[] args) throws IOException {
         String path1 = "C:\\Users\\Jama\\Desktop\\Coding\\Java\\SyntaxJava\\Files\\Config.properties";
         String path2 = "C:\\Users\\Jama\\Desktop\\Coding\\Java\\SyntaxJava\\Files\\Config1.properties";
+
+        /*String[] arr = {"hi"};
+        main(arr);*/
         FileInputStream fileInputStream = new FileInputStream(path2);
         FileInputStream fileInputStream1 = new FileInputStream(path1);
         Properties properties = new Properties();
